@@ -13,6 +13,8 @@ inputt = False
 # except Exception as e:
 #     pass
 
+
+# Скачать модель model_url = 'http://vectors.nlpl.eu/repository/20/220.zip'
 model = gensim.models.KeyedVectors.load_word2vec_format('model.bin', binary=True)
 
 
